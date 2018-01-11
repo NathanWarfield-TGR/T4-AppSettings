@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>GM.DPS.T4AppSettings</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>T4 AppSettings</title>
         <authors>General Mills - Digital Production Studio
         Originally - Eric Williams</authors>
@@ -24,5 +24,6 @@
     </metadata>
     <files>
         <file src="AppSettings.tt" target="content\AppSettings.tt" />
+        <file src="T4-README.markdown" target="content" />
     </files>
 </package>
